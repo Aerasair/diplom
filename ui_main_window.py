@@ -1,0 +1,143 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'ui_main_window.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(1179, 797)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("../ico3.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Form.setWindowIcon(icon)
+        Form.setStyleSheet("background: #8F9090;")
+        self.image_label1 = QtWidgets.QLabel(Form)
+        self.image_label1.setGeometry(QtCore.QRect(10, 90, 200, 200))
+        self.image_label1.setStyleSheet("border:1px solid black;\n"
+"")
+        self.image_label1.setObjectName("image_label1")
+        self.image_label2 = QtWidgets.QLabel(Form)
+        self.image_label2.setGeometry(QtCore.QRect(220, 90, 791, 451))
+        self.image_label2.setStyleSheet("border:1px solid black;\n"
+"")
+        self.image_label2.setObjectName("image_label2")
+        self.comboBox = QtWidgets.QComboBox(Form)
+        self.comboBox.setGeometry(QtCore.QRect(10, 290, 36, 18))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.comboBox.sizePolicy().hasHeightForWidth())
+        self.comboBox.setSizePolicy(sizePolicy)
+        self.comboBox.setObjectName("comboBox")
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox_2 = QtWidgets.QComboBox(Form)
+        self.comboBox_2.setGeometry(QtCore.QRect(220, 540, 36, 18))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.comboBox_2.sizePolicy().hasHeightForWidth())
+        self.comboBox_2.setSizePolicy(sizePolicy)
+        self.comboBox_2.setObjectName("comboBox_2")
+        self.comboBox_2.addItem("")
+        self.comboBox_2.addItem("")
+        self.control_bt = QtWidgets.QPushButton(Form)
+        self.control_bt.setGeometry(QtCore.QRect(640, 10, 151, 31))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.control_bt.sizePolicy().hasHeightForWidth())
+        self.control_bt.setSizePolicy(sizePolicy)
+        self.control_bt.setObjectName("control_bt")
+        self.pushButton = QtWidgets.QPushButton(Form)
+        self.pushButton.setGeometry(QtCore.QRect(640, 52, 151, 31))
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton.sizePolicy().hasHeightForWidth())
+        self.pushButton.setSizePolicy(sizePolicy)
+        self.pushButton.setObjectName("pushButton")
+        self.layoutWidget = QtWidgets.QWidget(Form)
+        self.layoutWidget.setGeometry(QtCore.QRect(10, 10, 621, 71))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.layoutWidget)
+        self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.pushButton_2 = QtWidgets.QPushButton(self.layoutWidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_2.sizePolicy().hasHeightForWidth())
+        self.pushButton_2.setSizePolicy(sizePolicy)
+        self.pushButton_2.setStyleSheet("background: #7F7F7F;\n"
+"border:1px solid #C4C4C4;")
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.horizontalLayout_4.addWidget(self.pushButton_2)
+        self.pushButton_3 = QtWidgets.QPushButton(self.layoutWidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_3.sizePolicy().hasHeightForWidth())
+        self.pushButton_3.setSizePolicy(sizePolicy)
+        self.pushButton_3.setStyleSheet("background: #7F7F7F;\n"
+"border:1px solid #C4C4C4;")
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.horizontalLayout_4.addWidget(self.pushButton_3)
+        self.pushButton_4 = QtWidgets.QPushButton(self.layoutWidget)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(0)
+        sizePolicy.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
+        self.pushButton_4.setSizePolicy(sizePolicy)
+        self.pushButton_4.setStyleSheet("background: #7F7F7F;\n"
+"border:1px solid #C4C4C4;")
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.horizontalLayout_4.addWidget(self.pushButton_4)
+        self.pushButton_5 = QtWidgets.QPushButton(Form)
+        self.pushButton_5.setGeometry(QtCore.QRect(230, 640, 241, 51))
+        self.pushButton_5.setStyleSheet("background: #aa0000;\n"
+"color:#fff;")
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.layoutWidget.raise_()
+        self.image_label1.raise_()
+        self.image_label2.raise_()
+        self.comboBox.raise_()
+        self.comboBox_2.raise_()
+        self.control_bt.raise_()
+        self.pushButton.raise_()
+        self.pushButton_5.raise_()
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "2 web cam recorder"))
+        self.image_label1.setText(_translate("Form", "TextLabel"))
+        self.image_label2.setText(_translate("Form", "TextLabel"))
+        self.comboBox.setItemText(0, _translate("Form", "0"))
+        self.comboBox.setItemText(1, _translate("Form", "1"))
+        self.comboBox_2.setItemText(0, _translate("Form", "0"))
+        self.comboBox_2.setItemText(1, _translate("Form", "1"))
+        self.control_bt.setText(_translate("Form", "Start"))
+        self.pushButton.setText(_translate("Form", "Record"))
+        self.pushButton_2.setText(_translate("Form", "Добавить камеру"))
+        self.pushButton_3.setText(_translate("Form", "Просмотр записей"))
+        self.pushButton_4.setText(_translate("Form", "Настройка"))
+        self.pushButton_5.setText(_translate("Form", "drag me! "))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    Form = QtWidgets.QWidget()
+    ui = Ui_Form()
+    ui.setupUi(Form)
+    Form.show()
+    sys.exit(app.exec_())
+

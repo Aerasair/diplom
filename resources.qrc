@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>cross.png</file>
+    <file>table-grid.png</file>
+    <file>calendar.png</file>
+    <file>grid1.png</file>
+    <file>grid4.png</file>
+    <file>grid6.png</file>
+    <file>grid9.png</file>
+    <file>grid36.png</file>
+    <file>profile.png</file>
+    <file>security.png</file>
+    <file>settings.png</file>
+    <file>video-player.png</file>
+  </qresource>
+  <qresource prefix="player">
+    <file>player5.png</file>
+    <file>playe4.png</file>
+    <file>player1.png</file>
+    <file>player2.png</file>
+    <file>player3.png</file>
+  </qresource>
+</RCC>
